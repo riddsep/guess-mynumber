@@ -49,7 +49,7 @@ document.querySelector(".check").addEventListener("click", () => {
 document.querySelector(".again").addEventListener("click", () => {
   score = 20;
   secretNumber = Math.trunc(Math.random() * 20 + 1);
-  displayMessage("Start guessing... 🤔");
+  displayMessage("Start guessing...");
   displayScore(score);
   document.querySelector(".number").textContent = "?";
   document.querySelector("body").style.backgroundColor = "#222";
