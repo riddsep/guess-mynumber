@@ -36,7 +36,7 @@ document.querySelector(".check").addEventListener("click", () => {
       score--;
       document.querySelector(".score").textContent = score;
     } else {
-      displayMessage("💥 You lost the game!");
+      displayMessage("🫣 You lost the game!");
       document.querySelector(".score").textContent = 0;
     }
   }
