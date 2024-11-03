@@ -24,7 +24,7 @@ document.querySelector(".check").addEventListener("click", () => {
       document.querySelector(".highscore").textContent = highscore;
     }
 
-    displayMessage("🥳 Correct Number");
+    displayMessage("🥳 Correct Number!");
     document.querySelector(".number").textContent = secretNumber;
 
     document.querySelector("body").style.backgroundColor = "green";
